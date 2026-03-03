@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wei Hsin Wu | Personal Portfolio</title>
+    <meta name="description" content="Personal portfolio of Wei Hsin Wu - Impactful and Minimalist Design.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <a href="#" class="logo">WEI HSIN</a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Wei Hsin Wu</h1>
+            <p>Crafting digital experiences with precision and passion. Architect of modern, elegant solutions.</p>
+            <div class="clock-container">
+                <div id="clock">00:00:00</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="reveal">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="services-grid">
+            <div style="grid-column: span 2;">
+                <p style="font-size: 1.5rem; color: var(--text-secondary); margin-bottom: 30px;">
+                    Hi, I'm Wei Hsin Wu. I specialize in building high-performance, aesthetically pleasing web applications. 
+                    Inspired by the "Unfold" philosophy, I believe in creating impactful experiences that leave a lasting impression.
+                </p>
+                <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                    <div class="service-card" style="flex: 1; min-width: 200px;">
+                        <h3>Vision</h3>
+                        <p>To redefine the digital landscape through minimalist yet powerful design.</p>
+                    </div>
+                    <div class="service-card" style="flex: 1; min-width: 200px;">
+                        <h3>Quality</h3>
+                        <p>Delivering excellence in every line of code and every pixel designed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="reveal">
+        <h2 class="section-title">What I <span>Do</span></h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Building responsive, scalable applications using modern technologies.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-bezier-curve"></i>
+                <h3>UI/UX Design</h3>
+                <p>Creating intuitive and beautiful interfaces that users love.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-rocket"></i>
+                <h3>Brand Strategy</h3>
+                <p>Defining digital identities that resonate with the target audience.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="reveal">
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+            <p style="margin-bottom: 40px;">Currently available for freelance work and collaborations. Reach out and let's build something amazing.</p>
+            <a href="mailto:hello@weihsin.com" style="background: var(--accent-color); color: var(--bg-color); padding: 15px 40px; text-decoration: none; border-radius: 50px; font-weight: 800; text-transform: uppercase; transition: var(--transition);">
+                Contact Me
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2026 Wei Hsin Wu. All rights reserved.</p>
+        <p id="footer-time" style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 10px;"></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
